@@ -39,7 +39,6 @@ Tailcloakify provides ways of customizing your theme without the need to rebuild
 
 Some customizations are possible thought Keycloaks Localization System, allowing setting up different configurations for each language. You can eigher add custom localization by adding those into the keycloak server or by manualy setting them within the realm settings.
 
-Considder setting *footerImprintUrl* or *footerDataprotectionUrl* in the language you want.
 | Name                     | Description                                                                        |
 | ------------------------ | ---------------------------------------------------------------------------------- |
 | footerImprintUrl         | The localized enabled alternative to env: TAILCLOAKIFY_FOOTER_IMPRINT_URL          |
