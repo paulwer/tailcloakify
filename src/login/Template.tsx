@@ -218,7 +218,7 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
                             target={"_blank"}
                             rel={"noopener noreferrer"}
                             type={"button"}
-                            data-cc={"show-preferencesModal"}
+                            onClick={() => window.CookieConsent?.showPreferences()}
                         >
                             {msg("footerCookiePreferencesTitle")}
                         </a>
